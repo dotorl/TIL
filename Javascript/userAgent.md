@@ -2,7 +2,7 @@
 
 ## navigator.userAgent
 
-navigator.userAgent는 읽기 전용속성으로 현재 브라우저에 대한 사용자 에이전트 문자열은 반환함.
+> navigator.userAgent는 읽기 전용속성으로 현재 브라우저에 대한 사용자 에이전트 문자열은 반환함.
 
 ```javascript
 export default checkDevice = {
@@ -38,13 +38,15 @@ export default checkDevice = {
 };
 ```
 
----
+<br>
 
 ## navigator.platform (Deprecated)
 
-navigator.platform 으로도 어느정도 브라우저의 블랫폼을 찾을 수 있는 방법이 있지만 Deprecated 되었고 현재 공식문서에서도 권장하지않는 방법.
+> navigator.platform 으로도 어느정도 브라우저의 블랫폼을 찾을 수 있는 방법이 있지만 Deprecated 되었고 현재 공식문서에서도 권장하지않는 방법.
 
----
+- 현재 natigator.platform 으로 Mac M1인 경우에도 Chrome과 Chromium 베이스의 브라우저에서는 모두 MacIntel로 return 하는 이슈가 있음
+
+<br>
 
 ## navigator.userAgentData.platform
 
